@@ -12,6 +12,18 @@
     ``` python3 main.py ```
 
     Las instrucciones permitidas son: RESERVAR, LIBERAR, MOSTRAR, AYUDA y SALIR.
+
+    Para ejercutar las pruebbas en Python utilice el marco de prueba
+
+    ``` pytest  ```
+
+    Para probar la cobertura del programa ejecute
+
+    ``` coverage run -m unittest test_buddy_system.py ```  
+
+    y si desea mas detalles 
+
+    ``` coverage report -m  ```
     
     Instrucciones del programa:
     1. Para reservar un bloque de memoria, escriba: RESERVAR tamaño_del_bloque nombre_del_proceso

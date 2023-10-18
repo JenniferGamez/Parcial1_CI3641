@@ -6,6 +6,23 @@
     - modulo_aritmetica.py: Contiene la clase Vector.
     - test_modulo_aritmetica.py: Contiene las pruebas unitarias para la clase Vector.
 
+    Para probar el test, ejecuta
+    
+    ``` pytest test_modulo_aritmetica.py ``` 
+
+
+
+    Para ejercutar las pruebbas en Python utilice el marco de prueba
+
+    ``` pytest  ```
+
+    Para probar la cobertura del programa ejecute
+
+    ``` coverage run -m unittest test_modulo_aritmetica.py ```  
+
+    y si desea mas detalles 
+
+    ``` coverage report -m  ```
 
 ## Requisitos del Sistema
 
